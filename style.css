@@ -96,7 +96,6 @@ body{
     background-image: url("images/student-woman.png");
     background-repeat: no-repeat;
     background-position: calc(66% + 570px) 3px;
-    
     padding-bottom: 59px;
 }
 .help-container{
@@ -318,6 +317,253 @@ body{
       transform: translatex(100%);
     }
   }
+/**services**/
+.services-container{
+    max-width: 1183px;
+    margin: 0 auto;
+}
+.services-heading{
+    font-size: 37px;
+    font-weight: 700;
+    color:#373737;
+    line-height: 54px;
+    letter-spacing: -0.46px;
+    text-align: center;
+    margin-top: 134px;
+}
+.services-paragraph{
+    font-size: 22px;
+    line-height: 32px;
+    color: #7D7D7D;
+    font-weight: 500;
+    text-align: center;
+    max-width: 949px;
+    margin: 0 auto;
+}
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+}
+.services-list-item{
+    max-width: 296px;
+    list-style: none;
+    padding: 135px 17px 30px 31px;
+    background-color: #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-right: 47px;
+    margin-bottom: 56px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.services-item:not(:nth-child(3n)) img{
+    margin-right: 47px;
+}
+.services-list-heading{
+    color: #37474F;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    margin: 0;
+}
+.services-list-paragraph{
+    color: #7D7D7D;;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.44px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+.career::before{
+    content:"";
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("images/radar.png");
+    width: 76px;
+    height: 76px;
+    background-size:contain;
+    top: 27px;
+    right: 185px;
+    transition: ease 0.2s;
+}
+.admission::before{
+    content:"";
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("images/admission.png");
+    width: 76px;
+    height: 76px;
+    background-size:contain;
+    top: 27px;
+    right: 185px;
+    transition: ease 0.2s;
+}
+.consulting::before{
+    content:"";
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("images/checked.png");
+    width: 76px;
+    height: 76px;
+    background-size:contain;
+    top: 27px;
+    right: 185px;
+    transition: ease 0.2s;
+}
+.accomodation::before{
+    content:"";
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("images/home.png");
+    width: 76px;
+    height: 76px;
+    background-size:contain;
+    top: 27px;
+    right: 185px;
+    transition: ease 0.2s;
+}
+.departure::before{
+    content:"";
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("images/airplane.png");
+    width: 76px;
+    height: 76px;
+    background-size:contain;
+    top: 27px;
+    right: 185px;
+    transition: ease 0.2s;
+}
+.services-list-link{
+    color: #717CFF;
+    text-decoration: none;
+    font-weight: 700;
+   
+}
+.services-list-link::after{
+    content:"";
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("images/arrow-right.svg");
+    width: 24px;
+    height: 24px;
+    background-size:contain;
+    right: 140px;
+    transition: ease 0.2s;
+}
+.news{
+    background-color: #FAFAFA;
+    padding-bottom: 120px;
+}
+.news-heading{
+   padding-top: 102px;
+  
+   font-size: 37px;
+   line-height: 54px;
+   color: #373737;
+   text-align: center;
+}
+.news-container{
+    max-width: 1183px;
+    margin-left: 148px;   
+}
+.news-cards{
+    margin-top: 119px;
+    display: flex;
+}
+.news-paragraph{
+    color: #7D7D7D;
+    width: 949px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+}
+.news-cards-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 344px;
+    margin: 0 46px 0 0;
+    padding: 0;
+    padding-bottom: 62px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+    border-radius: 10px;
+}
+.news-cards-item::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 344px;
+    height: 224px;
+    margin-bottom: 28px;
+}
+.water::before{
+    background-image: url("images/art-left.png");
+}
+.trump::before{
+    background-image: url("images/art-woman-center.png");
+}
+.animal::before{
+    background-image: url("images/art-right.png");
+}
+time{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 26px;
+}
+time::before{
+    content: "";
+    display: block;
+    background-image: url("images/calendar.svg");
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    margin-right: 12px;
+}
+.news-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #252525;
+    padding: 0 26px;
+    margin-top: 10px;
+}
+.join-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 146px;
+}
+.news-join-link{
+    max-width: 226px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 34px;
+    text-decoration: none;
+    background: #717CFF;
+    border-radius: 11px;
+    color: #FFFFFF;
+}
+.news-join-link::after{
+    content: "";
+    display: block;
+    background-image: url("images/arrow-right.svg");
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 26px;
+    margin-left: 36px;
+}
+
+
 
 
 
